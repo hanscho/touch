@@ -1,0 +1,15 @@
+﻿<Window x:Class="Touch.Choice"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Choice" Height="300" Width="300">
+    <Grid>
+    <StackPanel>
+      <Button Content="FJ" Click="StartFJ" />
+      <Button Content="DK" Click="StartDK" />
+      <Button Content="SL" Click="StartSL" />
+      <Button Content="AØ" Click="StartAOs" />
+      <Button Content="ASDFJKLØ" Click="StartAllFingers" />
+      <Button Content="Ord" Click="StartWords" />
+    </StackPanel>
+  </Grid>
+</Window>
